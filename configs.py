@@ -5,15 +5,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
+    API_ID = int(os.getenv("API_ID", "21723146"))
+    API_HASH = os.getenv("API_HASH", "07cd9c82699c28111cb33693ecbd9116)
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "6220002313:AAGTYq0tWyyXQpdHi_plKs31WMyzFK9jC5I")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdisk")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "BQC6Lx4X0IR79lGhKEJi8FDdz9RBmNyxOWz4b8m7l_0pEawp3CONu9gi_zyY3PnKp3Ml02vCQ1wvoFBzni5DyQA5RoXsX9JoHh-gTeSyGoDtR-9ya9kIGKGUWaRKC8v0N8SocDsaW4Kx-qTQfxBzju5VE-MpKSst_jFvvY8SEtKpVTvq7trnfj1ofu2WzZsGkmvb10yu13BXyETJLK783Ph8w0PDMS5O_jMiVSQs5n0r71Fp4t8ugE51HmjaNNgUB8M6j7e_Dwkj1mpue1ZX-mN4oHy6bLCcY_Nn-lkEB4vWiIk5xCCsF12o_cTgce6si_0TbYFsoKYmoPtm38nJUnAAAAAXK9tAkB")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001896609847")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "DD_search_movie_bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5851749250"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Abdulkhalik")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
@@ -29,15 +29,15 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001249072794")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001796458234"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001836465539")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://kailash:pass@cluster0.sqtztxm.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001720210775"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "cynitebackup")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "pathan_h")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
-    MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
+    MDISK_API = os.getenv("MDISK_API", "dZul9OJxgbehif3vMtM4")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
