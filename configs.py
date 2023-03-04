@@ -5,8 +5,8 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "21723146"))
-    API_HASH = os.getenv("API_HASH", "07cd9c82699c28111cb33693ecbd9116")
+    API_ID = int(os.getenv("API_ID", "21872317"))
+    API_HASH = os.getenv("API_HASH", "b226752dd7d9958a2878118195fffe8b")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6088261601:AAHDYDGB7Cc5Gr6vXZ7VJwvjBKCqzUW_Gw4")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "DD_search_bot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOKABuysmzoHKihdBmHomxfJRrC1gT6ZR_2B_jeYHQB1QmN4etvQ5muMHevMVeARNsVuwiKKuUtHnzdAK9RT3Qvb_XIfbqocxbYCYT2cyj0dWQrgFhg5ZLpZCwC-yte8hYplca4V7tmkh_InHNLV_ysjUXFFmQoajyN2SFoQ5pGM9pbuaY8raAHyMPjJOoLcDRXfxM4onuFdekrVG-r6mHOzhzUeOYDf4HXa5W8IOlVQ-R_qch399WPkWtOMgE9ntjzcEGXryL6x9p4zGcAegSEYZVCf7bq-YzXBFLxzmobxP2Y3_VMl20e2ThuYHMAeCPDuppalLl0FpED7C4vWzK9b5RLo=")
